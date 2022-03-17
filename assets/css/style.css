@@ -83,4 +83,20 @@ body {
 /* slider section */
 #slider .img-container:hover {
     border: 2px solid #0d6efd;
-}   
+} 
+
+/* ps5 section */
+#ps5-section .accessories i {
+    font-size: 0.5rem;
+}
+
+#ps5-section .items:hover {
+    border-bottom: 2px solid #0d6efd;
+}
+
+/* hero secondary section */
+#hero-secondary {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
