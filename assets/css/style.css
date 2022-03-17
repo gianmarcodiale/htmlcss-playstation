@@ -21,6 +21,10 @@ body {
     background-color: #000000;
 }
 
+.ps-bg-dark {
+    background-color: var(--upcoming-sect-bg);
+}
+
 .ps-login-btn-bg {
     background-color: var(--login-btn-bg);
 }
@@ -99,4 +103,9 @@ body {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center;
+}
+
+/* new section */
+#new i {
+    font-size: 0.5rem;
 }
