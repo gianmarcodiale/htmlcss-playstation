@@ -25,15 +25,26 @@ body {
     background-color: var(--login-btn-bg);
 }
 
+.ps-buy-btn-bg {
+    background-color: var(--shop-now-btn-bg);
+}
+
+/* Text colors */
+.ps-text-dark {
+    color: #000000;
+}
+
 /* Utility */
-.ps-btn-br {
+.ps-btn-br-hv {
     border-radius: 3rem;
-    border: 2px solid var(--login-btn-bg);
 }
 
 .btn-outline {
-    background-color: var(--login-btn-bg);
     border-radius: 3rem;
+}
+
+.ps-btn-br-hv:hover {
+    border-color: #FFFFFF;
 }
 
 .btn-outline:hover {
@@ -42,6 +53,13 @@ body {
    margin-left: -2px;
 }
 
-.ps-btn-br:hover {
-    border-color:  white;
+/* Header */
+#site-header.hero-img {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#site-header .banner {
+    padding-top: 20rem;
 }
