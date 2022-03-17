@@ -34,6 +34,14 @@ body {
     color: #000000;
 }
 
+.ps-text-blue {
+    color: #0d6efd;
+}
+
+.ps-text-gray {
+    color: #7c7c7c;
+}
+
 /* Utility */
 .ps-btn-br-hv {
     border-radius: 3rem;
@@ -55,6 +63,10 @@ body {
 
 .rounded-125 {
     border-radius: 1.25rem;
+}
+
+.ps-mt-7rem {
+    margin-top: 7rem;
 }
 
 /* Header */
