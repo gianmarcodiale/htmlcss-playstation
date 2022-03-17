@@ -1,0 +1,47 @@
+/* Common */
+:root {
+    --footer-sect-bg: #00439C;
+    --ps-now-sect-bg: #161C3B;
+    --upcoming-sect-bg: #1F1F1F;
+    --more-info-btn-bg: #2D64E6;
+    --login-btn-bg: #363636;
+    --ps-plus-sect-bg: #BEBCBB;
+    --shop-now-btn-bg: #CD3D0F;
+    --ps-plus-btn-bg: #D9DADC;
+    --ps-now-btn-bg: #F5F5F5;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Background colors */
+.ps-bg-black {
+    background-color: #000000;
+}
+
+.ps-login-btn-bg {
+    background-color: var(--login-btn-bg);
+}
+
+/* Utility */
+.ps-btn-br {
+    border-radius: 3rem;
+    border: 2px solid var(--login-btn-bg);
+}
+
+.btn-outline {
+    background-color: var(--login-btn-bg);
+    border-radius: 3rem;
+}
+
+.btn-outline:hover {
+   border: 2px solid var(--login-btn-bg);
+   margin-right: -2px;
+   margin-left: -2px;
+}
+
+.ps-btn-br:hover {
+    border-color:  white;
+}
