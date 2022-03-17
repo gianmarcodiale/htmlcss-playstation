@@ -53,6 +53,10 @@ body {
    margin-left: -2px;
 }
 
+.rounded-125 {
+    border-radius: 1.25rem;
+}
+
 /* Header */
 #site-header.hero-img {
     background-image: url(../img/jumbo-bg.png);
@@ -63,3 +67,8 @@ body {
 #site-header .banner {
     padding-top: 20rem;
 }
+
+/* slider section */
+#slider .img-container:hover {
+    border: 2px solid #0d6efd;
+}   
