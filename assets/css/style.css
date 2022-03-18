@@ -73,6 +73,20 @@ body {
     margin-top: 7rem;
 }
 
+/* navbar */
+.dropdown-toggle::after {
+    border: none;
+    font: var(--fa-font-solid);
+    content: "\f107";
+}
+
+.nav-link.dropdown-toggle {
+    display: flex;
+    align-items: center;
+}
+
+
+
 /* Header */
 #site-header.hero-img {
     background-image: url(../img/jumbo-bg.png);
