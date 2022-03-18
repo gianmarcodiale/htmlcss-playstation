@@ -37,6 +37,14 @@ body {
     background-color: var(--more-info-btn-bg);
 }
 
+.ps-plus-bg {
+    background-color: var(--ps-plus-sect-bg);
+}
+
+.ps-plus-btn-bg {
+    background-color: var(--ps-plus-btn-bg);
+}
+
 /* Text colors */
 .ps-text-dark {
     color: #000000;
@@ -51,6 +59,8 @@ body {
 }
 
 /* Utility */
+
+/* Buttons utilities */
 .ps-btn-br {
     border-radius: 3rem;
 }
@@ -72,6 +82,14 @@ body {
     padding:.375rem 0.75rem;
     box-shadow:inset 0 0 0 2px white;
 }
+
+.ps-plus-btn:hover {
+    background: var(--ps-plus-btn-bg);
+    padding:.375rem 0.75rem;
+    box-shadow:inset 0 0 0 2px white;
+}
+
+/* Other utilities */
 
 .rounded-125 {
     border-radius: 1.25rem;
@@ -96,8 +114,6 @@ body {
     display: flex;
     align-items: center;
 }
-
-
 
 /* Header */
 #site-header.hero-img {
@@ -135,3 +151,5 @@ body {
 #new-release i {
     font-size: 0.5rem;
 }
+
+/* ps plus section */
