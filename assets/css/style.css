@@ -49,6 +49,10 @@ body {
     background-color: var(--ps-now-sect-bg);
 }
 
+.footer-bg {
+    background-color: var(--footer-sect-bg);
+}
+
 /* Text colors */
 .ps-text-dark {
     color: #000000;
@@ -148,4 +152,8 @@ body {
     font-size: 0.5rem;
 }
 
-/* ps plus section */
+/* footer section */
+#site-footer a {
+    text-decoration: none;
+    color: white;
+}
