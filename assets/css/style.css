@@ -45,6 +45,10 @@ body {
     background-color: var(--ps-plus-btn-bg);
 }
 
+.ps-now-bg {
+    background-color: var(--ps-now-sect-bg);
+}
+
 /* Text colors */
 .ps-text-dark {
     color: #000000;
