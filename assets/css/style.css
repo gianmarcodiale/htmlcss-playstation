@@ -89,6 +89,27 @@ body {
     box-shadow:inset 0 0 0 2px white;
 }
 
+.img-container {
+    position: relative;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.img-container:hover {
+    transform: translate(0, -20px);
+}
+
+@keyframes moveup {
+
+    0% {
+        bottom: 0px
+    }
+
+    100% {
+        bottom: 20px
+    }
+}
+
 /* Other utilities */
 
 .rounded-125 {
