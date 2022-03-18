@@ -66,26 +66,18 @@ body {
 }
 
 .ps-login-btn:hover {
-    background: var(--login-btn-bg);
-    padding:.375rem 0.75rem;
     box-shadow:inset 0 0 0 2px white;
 }
 
 .ps-buy-btn:hover {
-    background: var(--shop-now-btn-bg);
-    padding:.375rem 0.75rem;
     box-shadow:inset 0 0 0 2px white;
 }
 
 .ps-info-btn:hover {
-    background: var(--more-info-btn-bg);
-    padding:.375rem 0.75rem;
     box-shadow:inset 0 0 0 2px white;
 }
 
 .ps-plus-btn:hover {
-    background: var(--ps-plus-btn-bg);
-    padding:.375rem 0.75rem;
     box-shadow:inset 0 0 0 2px white;
 }
 
