@@ -33,6 +33,10 @@ body {
     background-color: var(--shop-now-btn-bg);
 }
 
+.ps-info-btn-bg {
+    background-color: var(--more-info-btn-bg);
+}
+
 /* Text colors */
 .ps-text-dark {
     color: #000000;
@@ -51,18 +55,22 @@ body {
     border-radius: 3rem;
 }
 
-.btn-outline {
-    border-radius: 3rem;
+.ps-login-btn:hover {
+    background: var(--login-btn-bg);
+    padding:.375rem 0.75rem;
+    box-shadow:inset 0 0 0 2px white;
 }
 
-.ps-btn-br-hv:hover {
-    border-color: #FFFFFF;
+.ps-buy-btn:hover {
+    background: var(--shop-now-btn-bg);
+    padding:.375rem 0.75rem;
+    box-shadow:inset 0 0 0 2px white;
 }
 
-.btn-outline:hover {
-   border: 2px solid var(--login-btn-bg);
-   margin-right: -2px;
-   margin-left: -2px;
+.ps-blue-btn:hover {
+    background: var(--more-info-btn-bg);
+    padding:.375rem 0.75rem;
+    box-shadow:inset 0 0 0 2px white;
 }
 
 .rounded-125 {
@@ -71,6 +79,10 @@ body {
 
 .ps-mt-7rem {
     margin-top: 7rem;
+}
+
+.ps-fs-075rem {
+    font-size: 0.75rem;
 }
 
 /* navbar */
@@ -120,6 +132,6 @@ body {
 }
 
 /* new section */
-#new i {
+#new-release i {
     font-size: 0.5rem;
 }
