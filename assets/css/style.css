@@ -161,6 +161,14 @@ body {
     font-size: 0.5rem;
 }
 
+#ps5-section .items>img {
+    opacity: 0.4;
+}
+
+#ps5-section .items:hover img {
+    opacity: 1;
+}
+
 #ps5-section .selection {
     height: 2px;
     visibility: hidden;
