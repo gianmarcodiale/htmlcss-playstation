@@ -49,6 +49,10 @@ body {
     background-color: var(--ps-now-sect-bg);
 }
 
+.ps-now-2-bg {
+    background-color: #1F3263;
+}
+
 .footer-bg {
     background-color: var(--footer-sect-bg);
 }
