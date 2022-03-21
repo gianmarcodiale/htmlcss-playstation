@@ -53,6 +53,10 @@ body {
     background-color: #1F3263;
 }
 
+.ps-now-2-bg-dark {
+    background-color: #04102F;
+}
+
 .footer-bg {
     background-color: var(--footer-sect-bg);
 }
