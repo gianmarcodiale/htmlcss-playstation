@@ -124,6 +124,10 @@ body {
     font-size: 0.75rem;
 }
 
+.ps-container-xxs {
+    max-width: 310px;
+}
+
 /* navbar */
 .dropdown-toggle::after {
     border: none;
